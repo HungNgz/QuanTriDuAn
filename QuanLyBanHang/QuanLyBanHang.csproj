@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>QuanLyBanHang</RootNamespace>
     <AssemblyName>QuanLyBanHang</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -61,11 +61,29 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\frmCaiDat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCaiDat.designer.cs">
+      <DependentUpon>frmCaiDat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmChiTietHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmChiTietHoaDon.designer.cs">
+      <DependentUpon>frmChiTietHoaDon.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\frmDangNhap.Designer.cs">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmLuaChonHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmLuaChonHang.designer.cs">
+      <DependentUpon>frmLuaChonHang.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\frmQuanLySanPham.cs">
       <SubType>Form</SubType>
@@ -91,8 +109,17 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCaiDat.resx">
+      <DependentUpon>frmCaiDat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmChiTietHoaDon.resx">
+      <DependentUpon>frmChiTietHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmLuaChonHang.resx">
+      <DependentUpon>frmLuaChonHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmQuanLySanPham.resx">
       <DependentUpon>frmQuanLySanPham.cs</DependentUpon>
